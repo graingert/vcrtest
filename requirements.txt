@@ -1,2 +1,2 @@
-pyvcr == 1.11.1
+vcrpy == 1.11.1
 requests
