@@ -1,9 +1,14 @@
 language: python
-cache: pip
 
 python:
   - 3.5.2
-install:
-  - pip install -r requirements.txt
+
+services:
+  - docker
+  
+before_install:
+- docker build -t yuna/vcrtest .
+- docker run yuna/vcrtest
+
 script:
   - python test.py
