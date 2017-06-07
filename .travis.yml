@@ -1,14 +1,11 @@
 language: python
 
-python:
-  - 3.5.2
-
 services:
   - docker
-  
+
 before_install:
 - docker build -t yuna/vcrtest .
 - docker run yuna/vcrtest
 
 script:
-  - python test.py
+  - docker run yuna/vcrtest
