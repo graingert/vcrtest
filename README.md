@@ -1,3 +1,3 @@
 # vcrtest
 
-https://travis-ci.org/ooeyuna/vcrtest.svg?branch=master
+![travisci](https://travis-ci.org/ooeyuna/vcrtest.svg?branch=master)
